@@ -11,7 +11,7 @@ contract Reader is Ownable {
         dapiProxy = _proxyAddress;
     }
 
-    function readDapi (int224 value, uint32 timestamp) public view returns (int224, uint32){
+    function readDapi() public view returns (int224 value, uint32 timestamp){
         return IDapiProxy(dapiProxy).read();
     }
 }
