@@ -1,0 +1,6 @@
+credentials.json
+/node_modules
+yarn.lock
+credentials.example.json
+cache
+artifacts
